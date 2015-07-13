@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f5a623;
+    background-image: url(../img/layersgradient.jpg);
 }
 
 .bg-dark {
