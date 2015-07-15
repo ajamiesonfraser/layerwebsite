@@ -24,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.375" vertical-offset="3198" max-vertical-offset="4350">
-              <caret line="241" column="84" selection-start-line="241" selection-start-column="84" selection-end-line="241" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.72602737" vertical-offset="2568" max-vertical-offset="4350">
+              <caret line="203" column="47" selection-start-line="203" selection-start-column="47" selection-end-line="203" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="creative.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="creative.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7180617" vertical-offset="6654" max-vertical-offset="7335">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6654" max-vertical-offset="7335">
               <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
               <folding />
             </state>
@@ -81,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/creative.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -300,10 +300,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="25" width="1886" height="931" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15494637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15494637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -427,18 +427,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.375" vertical-offset="3198" max-vertical-offset="4350">
-          <caret line="241" column="84" selection-start-line="241" selection-start-column="84" selection-end-line="241" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="6654" max-vertical-offset="7335">
+          <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/creative.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7180617" vertical-offset="6654" max-vertical-offset="7335">
-          <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.72602737" vertical-offset="2568" max-vertical-offset="4350">
+          <caret line="203" column="47" selection-start-line="203" selection-start-column="47" selection-end-line="203" selection-end-column="47" />
           <folding />
         </state>
       </provider>
