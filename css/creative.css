@@ -52,7 +52,8 @@ p {
 }
 
 .bg-primary {
-    background-image: url(../img/layersgradient.jpg);
+    background-image: url(http://i.imgur.com/InJVIMi.jpg);
+    background-repeat: no-repeat;
 }
 
 .bg-dark {
