@@ -52,8 +52,11 @@ p {
 }
 
 .bg-primary {
-    background-image: url(http://i.imgur.com/InJVIMi.jpg);
-    background-repeat: no-repeat;
+    background: url(http://i.imgur.com/InJVIMi.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bg-dark {
