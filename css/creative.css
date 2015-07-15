@@ -61,7 +61,11 @@ p {
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background: url(http://i.imgur.com/BF3gvwB.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .text-faded {
