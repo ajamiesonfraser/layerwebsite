@@ -67,9 +67,22 @@ p {
     -o-background-size: cover;
     background-size: cover;
 }
+.modal-title{
+    color: #ffffff;
+}
+.close{
+    color: #ffffff;
+}
+.modal-header {
+    background: url(http://i.imgur.com/InJVIMi.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(238, 255, 245, 0.87);
 }
 
 section {

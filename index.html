@@ -30,6 +30,7 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <![endif]-->
 
 </head>
@@ -89,7 +90,56 @@
                     <h2 class="section-heading">What is Layers?</h2>
                     <hr class="light">
                     <p class="text-faded">We are currently launching a beta release of our web app and want you to be a part of it. Layers allows users to create and upload images and share them with our community and their social network. Other users can edit and modify these images and share their own version. Every Layer made is connected to the one that came before it, and any that come after it! </p>
-                    <a href="#" class="btn btn-default btn-xl">Sign up for Beta</a>
+                    <a data-toggle="modal" href="#signupModal" class="btn btn-default btn-xl">Sign up for Beta</a>
+                    <div class="modal" id="signupModal">
+                        <div class="modal-dialog modal-md">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title">Sign up for Beta</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-horizontal" id="contact_form">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <label class="col-md-offset-2 col-md-1 control-label" for="name" style="color:gray">Name</label>
+                                                <div class="col-md-6">
+                                                    <input id="name" name="name" type="text" placeholder="Full name" class="form-control input-md" required="">
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Text input-->
+                                            <div class="form-group">
+                                                <label class="col-md-offset-2 col-md-1 control-label" for="email" style="color:gray">Email</label>
+                                                <div class="col-md-6">
+                                                    <input id="email" name="email" type="text" placeholder="Email address" class="form-control input-md" required="">
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Textarea -->
+                                            <!--<div class="form-group">-->
+                                                <!--<label class="col-md-4 control-label" for="msg">Message</label>-->
+                                                <!--<div class="col-md-4">-->
+                                                    <!--<textarea class="form-control" id="msg" name="msg" cols="6" rows="6"></textarea>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+
+                                            <!-- Button -->
+                                            <div class="form-group">
+                                                <label class="col-md-4 control-label" for="submit"></label>
+                                                <div class="col-md-4">
+                                                    <button id="submit" name="submit" class="btn btn-primary">Sign Up</button>
+                                                </div>
+                                            </div>
+
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,7 +156,7 @@
         </div>
         <div class="container" style="margin-bottom: 50px">
             <div class="row text-center">
-                <div class=" col-lg-6">
+                <div class=" col-lg-6" style="margin-bottom: 50px">
                     <img src="http://i.imgur.com/l2PdSQI.png?1">
                 </div>
                 <div class="col-lg-6">
@@ -157,10 +207,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Image Version Control
+                                    Video Pitch
                                 </div>
                                 <div class="project-name">
-                                    How Layers Works
+                                    A Case for Layers
                                 </div>
                             </div>
                         </div>
@@ -174,6 +224,77 @@
                                 </div>
                                 <div class="modal-body">
                                     <iframe width="868" height="651" src="https://www.youtube.com/embed/_HKYyi3fGlo" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" data-dismiss="modal" class="btn btn-primary">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#myModal5" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Our Story
+                                </div>
+                                <div class="project-name">
+                                    About Us
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="modal" id="myModal5">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title">About Us</h4>
+                                </div>
+                                <div class="modal-body">
+                                    Content for the dialog / modal goes here.
+
+                                    <br>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
+                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" data-dismiss="modal" class="btn btn-primary">Close</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#myModal6" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    News
+                                </div>
+                                <div class="project-name">
+                                    Blog
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="modal" id="myModal6">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    <h4 class="modal-title">Blog</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" data-width='100%' data-border="false" href="https://medium.com/@ajamiesonfraser">A.J. Fraser</a>
                                 </div>
                                 <div class="modal-footer">
                                     <a href="#" data-dismiss="modal" class="btn btn-primary">Close</a>
@@ -302,104 +423,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a data-toggle="modal" href="#myModal5" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Our Story
-                                </div>
-                                <div class="project-name">
-                                    About Us
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <div class="modal" id="myModal5">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    <h4 class="modal-title">About Us</h4>
-                                </div>
-                                <div class="modal-body">
-                                    Content for the dialog / modal goes here.
-
-                                    <br>
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-                                    eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-
-                                </div>
-                                <div class="modal-footer">
-                                    <a href="#" data-dismiss="modal" class="btn btn-primary">Close</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a data-toggle="modal" href="#myModal6" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    News
-                                </div>
-                                <div class="project-name">
-                                    Blog
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <div class="modal" id="myModal6">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    <h4 class="modal-title">Blog</h4>
-                                </div>
-                                <div class="modal-body">
-
-                                    Thursday, July 16 2015
-                                    <br>
-                                    <br>
-                                    Today was a pretty exciting day for Matt and I for a couple of reasons. I've been working hard over the last two days to get the
-                                    website up and start attracting some interest for the app. At the same time Matt posted the link to our beta app on a slack
-                                    channel for Polymer developers and got one truly new user that has no personal connection to either of us. Eugene, whoever you are,
-                                    thanks for making some Layers history. Matt Creager of Heroku also provided me with some incredible feedback about our messaging tonight.
-                                    Starting a startup is difficult. Starting something that you have a passion about and believe in is a joy, but still difficult.
-                                    You get so close to the product, the brand, the dream that it's hard to give yourself that alien perspective needed to be critical.
-                                    <br>
-                                    <br>
-                                    I had recorded a screencast pitch deck to send to our mentor network for critique about a week ago and hadn't recieved much back. This would
-                                    usually delight me, thinking I nailed it out of the park, but instead I felt it was bland, uninteresting. It didn't ignite any interest in
-                                    me, how could it excite a user base. Creager laid a lot out there, spent some quality time with it and told me what points needed refining,
-                                    what bullsh*t needed getting rid of, and getting back to the basics.
-                                    <br>
-                                    <br>
-                                    You always need outsiders looking in and tearing things apart. You can't take anything personal if you want to grow in this business. If you
-                                    can't compromise on something you feel is of the utmost importance to your vision, if it's the hill you want to die on, then stand your gound
-                                    and be able to back youself up.
-                                    <br>
-                                    <br>
-                                    Goodnight and happy Friday tomorrow!
-                                    <br>
-                                    <br>
-                                    A.J.
-
-                                </div>
-                                <div class="modal-footer">
-                                    <a href="#" data-dismiss="modal" class="btn btn-primary">Close</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -408,7 +431,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Make Your Layer Now!</h2>
-                <a href="#" class="btn btn-default btn-xl wow bounceIn">Sign up for Beta</a>
+                <a data-toggle="modal" href="#signupModal" class="btn btn-default btn-xl wow bounceIn">Sign up for Beta</a>
             </div>
         </div>
     </aside>
@@ -443,15 +466,15 @@
                     <hr class="primary">
                     <p>We're working hard to make Layers the best way to create, modify and share images online. We need your help. We can only make this thing amazing through your feedback, so give it a go and let us know what you think</p>
                 </div>
-                    <div class="col-md-offset-3 col-lg-2 text-center">
+                    <div class="col-md-offset-3 col-lg-offset-3 col-md-2 text-center">
                         <a href="mailto:ajamiesonfraser@gmail.com"><i class="fa fa-envelope-o fa-4x wow bounceIn" data-wow-delay=".1s"></i></a>
                         <p><a href="mailto:ajamiesonfraser@gmail.com">Email</a></p>
                     </div>
-                    <div class="col-lg-2 text-center">
+                    <div class="col-md-2 text-center">
                         <a href="https://twitter.com/_layrs"><i class="fa fa-twitter fa-4x wow bounceIn" data-wow-delay=".1s"></i></a>
                         <p><a href="https://twitter.com/_layrs">Twitter</a></p>
                     </div>
-                    <div class="col-lg-2 text-center">
+                    <div class="col-md-2 text-center">
                         <a href="https://www.facebook.com/addlayers?fref=ts"><i class="fa fa-facebook fa-4x wow bounceIn" data-wow-delay=".1s"></i></a>
                         <p><a href="https://www.facebook.com/addlayers?fref=ts">Facebook</a></p>
                     </div>
